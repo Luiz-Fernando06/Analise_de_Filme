@@ -59,6 +59,7 @@ A análise foi desenvolvida em **Python**, utilizando bibliotecas como **Pandas,
 ## 🗂️ Estrutura do Projeto
 
 ├── TMDB_EDA.ipynb # Notebook principal com análise e visualizações
+
 ├── tmdb_5000_movies.csv # Base de dados utilizada
 ├── README.md # Documentação do projeto
 
