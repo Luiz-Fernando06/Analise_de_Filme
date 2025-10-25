@@ -13,8 +13,7 @@ A análise foi desenvolvida em **Python**, utilizando bibliotecas como **Pandas,
 - Calcular a média de avaliação por gênero  
 - Observar a evolução da produção de filmes ao longo dos anos  
 - Analisar o índice de popularidade dos filmes  
-- Comparar a lucratividade por idioma  
-- Listar os filmes de terror mais populares  
+- Comparar a lucratividade por idioma    
 - Identificar as empresas mais lucrativas do setor cinematográfico  
 
 ---
@@ -44,7 +43,6 @@ A análise foi desenvolvida em **Python**, utilizando bibliotecas como **Pandas,
 - **Documentários e filmes históricos** têm as maiores médias de avaliação, apesar de menor apelo comercial.  
 - A **produção de filmes cresce exponencialmente a partir dos anos 2000**, impulsionada pela tecnologia digital e pelo streaming.  
 - O **inglês domina o mercado cinematográfico global**, mas idiomas como chinês e espanhol vêm ganhando espaço.  
-- O **gênero de terror** é o mais eficiente financeiramente: baixo custo e alto retorno.  
 - Estúdios como **Walt Disney Pictures**, **Warner Bros.** e **Universal** concentram a maior parte dos lucros.
 
 ---
