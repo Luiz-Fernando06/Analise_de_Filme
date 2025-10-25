@@ -1,23 +1,81 @@
-# Análise Exploratória — TMDB 5000 Movies Dataset
+# 🎬 Análise Exploratória de Dados — TMDB 5000 Movies
 
-## Objetivo:
-Explorar o conjunto de dados de filmes para identificar padrões de lucratividade, popularidade e comportamento do mercado cinematográfico.
+Este projeto apresenta uma análise exploratória de um conjunto de dados contendo informações sobre 5.000 filmes do banco **The Movie Database (TMDB)**.  
+O objetivo é compreender os fatores que influenciam o sucesso de um filme — seja em termos financeiros, de avaliação do público ou de popularidade.
 
-## Principais insights:
+A análise foi desenvolvida em **Python**, utilizando bibliotecas como **Pandas, Seaborn e Matplotlib**, e organizada de forma didática e narrativa, ideal para fins de aprendizado e demonstração profissional.
 
-- Filmes mais lucrativos: Identificados com base na diferença entre bilheteria e orçamento, destacando os títulos com maior retorno financeiro.
+---
 
-- Avaliação média por gênero: Análise das notas médias do público, revelando os gêneros com melhor recepção crítica.
+## 🎯 Objetivos da Análise
 
-- Evolução da produção: Acompanhamento da quantidade de filmes lançados ao longo dos anos, evidenciando o crescimento da indústria.
+- Identificar os filmes mais lucrativos  
+- Calcular a média de avaliação por gênero  
+- Observar a evolução da produção de filmes ao longo dos anos  
+- Analisar o índice de popularidade dos filmes  
+- Comparar a lucratividade por idioma  
+- Listar os filmes de terror mais populares  
+- Identificar as empresas mais lucrativas do setor cinematográfico  
 
-- Popularidade: Criação de um índice percentual de popularidade para comparar filmes de forma padronizada.
+---
 
-- Idiomas mais lucrativos: Identificação das línguas originais associadas às maiores receitas.
+## 🧩 Etapas Realizadas
 
-- Filmes de terror mais populares: Ranqueamento dos títulos mais famosos dentro do gênero Horror.
+1. **Carregamento e inspeção dos dados**  
+   Verificação das colunas, tipos de dados e valores ausentes.  
 
-- Empresas mais lucrativas: Avaliação das produtoras com maior soma de lucros totais, destacando líderes de mercado.
+2. **Limpeza e tratamento**  
+   Conversão de datas, remoção de nulos e criação de variáveis auxiliares.  
 
-## Resumo:
-Essa análise oferece uma visão ampla sobre o desempenho financeiro e o impacto dos filmes em diferentes dimensões — gênero, idioma, popularidade e estúdios — contribuindo para compreender tendências e estratégias no mercado cinematográfico global.
+3. **Cálculo e transformação de métricas**  
+   Lucro, popularidade percentual e agrupamentos por gênero, idioma e estúdio.  
+
+4. **Visualização dos resultados**  
+   Criação de gráficos para representar as principais tendências e descobertas.  
+
+5. **Interpretação dos resultados**  
+   Geração de insights sobre o comportamento da indústria cinematográfica.
+
+---
+
+## 📊 Principais Insights
+
+- Os **filmes mais lucrativos** pertencem majoritariamente a grandes franquias e produções de alto orçamento.  
+- **Documentários e filmes históricos** têm as maiores médias de avaliação, apesar de menor apelo comercial.  
+- A **produção de filmes cresce exponencialmente a partir dos anos 2000**, impulsionada pela tecnologia digital e pelo streaming.  
+- O **inglês domina o mercado cinematográfico global**, mas idiomas como chinês e espanhol vêm ganhando espaço.  
+- O **gênero de terror** é o mais eficiente financeiramente: baixo custo e alto retorno.  
+- Estúdios como **Walt Disney Pictures**, **Warner Bros.** e **Universal** concentram a maior parte dos lucros.
+
+---
+
+## 🧠 Ferramentas e Tecnologias Utilizadas
+
+- **Python 3**  
+- **Pandas** — manipulação e análise de dados  
+- **Matplotlib / Seaborn** — visualização de dados    
+- **Ast / Datetime** — tratamento de estruturas e datas  
+
+---
+
+## 🗂️ Estrutura do Projeto
+
+├── TMDB_EDA.ipynb # Notebook principal com análise e visualizações
+├── tmdb_5000_movies.csv # Base de dados utilizada
+├── README.md # Documentação do projeto
+
+
+---
+
+## 📈 Conclusão
+
+Esta análise oferece uma visão abrangente sobre o comportamento e a dinâmica da indústria cinematográfica, revelando como fatores como orçamento, gênero e idioma influenciam o sucesso de um filme.
+
+O projeto serve como um exemplo completo de **pipeline de análise exploratória**, cobrindo desde o tratamento dos dados até a comunicação dos resultados, com foco em clareza, narrativa e interpretação de insights.
+
+---
+
+**Autor:** Luiz Fernando Martins dos Santos  
+**Data:** Outubro de 2025  
+**Licença:** MIT  
+
